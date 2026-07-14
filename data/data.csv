@@ -1,32 +1,35 @@
 ﻿Location,Number of Sick People
 Alaska,1 to 10
+Arizona,1 to 10
 Arkansas,1 to 10
 California,1 to 10
 Colorado,1 to 10
-Connecticut,1 to 10
+Connecticut,11 to 30
 Florida,11 to 30
 Georgia,11 to 30
 Illinois,31 to 80
-Indiana,11 to 30
+Indiana,31 to 80
 Iowa,1 to 10
-Kansas,1 to 10
+Kansas,11 to 30
 Kentucky,31 to 80
 Louisiana,1 to 10
 Maryland,1 to 10
 Massachusetts,1 to 10
-Michigan,161 to 300
+Michigan,501 to 900
 Minnesota,1 to 10
 Nebraska,1 to 10
 New Hampshire,1 to 10
 New Jersey,31 to 80
-New York,81 to 160
-North Carolina,31 to 80
+New York,161 to 300
+North Carolina,81 to 160
 Ohio,1 to 10
+Oklahoma,11 to 30
 Pennsylvania,11 to 30
 Rhode Island,1 to 10
 Tennessee,11 to 30
 Texas,31 to 80
 Utah,1 to 10
 Virginia,11 to 30
-West Virginia,1 to 10
+Washington,1 to 10
+West Virginia,11 to 30
 Wisconsin,1 to 10
