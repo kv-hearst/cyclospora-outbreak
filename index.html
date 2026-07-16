@@ -124,19 +124,20 @@
     // const noDataColor = "#e0e0e0";
     const noDataColor = "#e9e9e9";
 
-    // Green scale matching the 5 case-range tiers in the data
     const colorScale = d3.scaleThreshold()
-      .domain([1, 11, 31, 81, 161])
-      .range(["#FFFFFF", "#c8f3f9", "#b3e6ea", "#9ed9da", "#8acdc9", "#4DACA1"]);
+  .domain([1, 11, 101, 501, 1001, 2001])
+  .range(["#FFFFFF", "#c8f3f9", "#b3e6ea", "#9ed9da", "#8acdc9", "#4DACA1", "#255751"]);
 
     const legendSwatches = [
-      { color: "#FFFFFF", label: "0",      stroke: "#ccc" },
-      { color: "#c8f3f9", label: "1–10",   stroke: "#ccc" },
-      { color: "#b3e6ea", label: "11–30",  stroke: "none" },
-      { color: "#9ed9da", label: "31–80",  stroke: "none" },
-      { color: "#8acdc9", label: "81–160", stroke: "none" },
-      { color: "#4DACA1", label: "161+",   stroke: "none" }
-    ];
+  { color: "#FFFFFF",  label: "0",          stroke: "none" },
+  { color: "#c8f3f9",  label: "1–10",       stroke: "none" },
+  { color: "#b3e6ea",  label: "11–100",      stroke: "none" },
+  { color: "#9ed9da",  label: "101–500",     stroke: "none" },
+  { color: "#8acdc9",  label: "501–1k",  stroke: "none" },
+  { color: "#4DACA1",  label: "1,001-2k",     stroke: "none" },
+  { color: "#255751",  label: "2k+",     stroke: "none" }
+];
+
     const swatchW = 36, swatchH = 14, swatchGap = 4;
     const totalLegendW = legendSwatches.length * (swatchW + swatchGap) - swatchGap;
     const legendG = svg.append("g")
@@ -167,11 +168,6 @@
       let html = `<div class="state-name">${name}</div>`;
       html += `<div class="rate">${row["Number of Sick People"]} sick people</div>`;
       html += `<div class="note">Last updated: ${row["Last Updated"]}</div>`;
-
-      // if (name === 'Michigan' || name === 'Alabama') {
-      // html += `<div class="note">Based on locally reported data</div>`;
-    
-    
 
       const container = document.getElementById("map-container");
       const rect = container.getBoundingClientRect();
