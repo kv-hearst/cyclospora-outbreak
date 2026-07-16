@@ -163,11 +163,31 @@
 
     function labelColor(n) { return n >= 81 ? "#333" : "#333"; }
 
+    // function showTooltip(name, clientX, clientY) {
+    //   const row = virusData.get(name);
+    //   let html = `<div class="state-name">${name}</div>`;
+    //   html += `<div class="rate">${row["Number of Sick People"]} sick people</div>`;
+    //   html += `<div class="note">Last updated: ${row["Last Updated"]}</div>`;
+
+    //   const container = document.getElementById("map-container");
+    //   const rect = container.getBoundingClientRect();
+    //   tooltip.html(html)
+    //     .style("left", (clientX - rect.left + 14) + "px")
+    //     .style("top", (clientY - rect.top - 10) + "px")
+    //     .style("opacity", 1);
+    // }
+
+
     function showTooltip(name, clientX, clientY) {
       const row = virusData.get(name);
       let html = `<div class="state-name">${name}</div>`;
-      html += `<div class="rate">${row["Number of Sick People"]} sick people</div>`;
-      html += `<div class="note">Last updated: ${row["Last Updated"]}</div>`;
+
+      if (row) {
+        html += `<div class="rate">${row["Number of Sick People"]} sick people</div>`;
+        html += `<div class="note">Last updated: ${row["Last Updated"]}</div>`;
+      } else {
+        html += `<div class="rate">No cases reported</div>`;
+      }
 
       const container = document.getElementById("map-container");
       const rect = container.getBoundingClientRect();
@@ -176,6 +196,7 @@
         .style("top", (clientY - rect.top - 10) + "px")
         .style("opacity", 1);
     }
+
    
     Promise.all([
       d3.json("https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json"),
