@@ -70,7 +70,7 @@
       <div class="s-value" id="stat-hospitalization"></div>
     </div>
     <div class="summary-card">
-      <div class="s-label">Confirmed Domestic Cases</div>
+      <div class="s-label">Total Estimated Cases</div>
       <div class="s-value" id="stat-total"></div>
     </div>
     <div class="summary-card">
@@ -90,9 +90,10 @@
 
 
   <div class="footer">
-    Note: Data as of <span id="last-updated"></span>. CDC data may be lower than local reports. Michigan data is based on local state health department reports.
+    Note: CDC data as of <span id="last-updated"></span>. Michigan and Alabama data are based on local state health department reports. Total estimated cases are a combination of local and nationally reported cases.
     <br>
-    Source: <a href="https://www.cdc.gov/cyclosporiasis/php/surveillance/index.html" target="_blank">U.S. Centers for Disease Control and Prevention</a>, <a href="https://www.michigan.gov/mdhhs/keep-mi-healthy/infectious-diseases/infectious-disease-outbreaks" target="_blank">Michigan Department of Health and Human Services</a><br>
+    Source: <a href="https://www.cdc.gov/cyclosporiasis/php/surveillance/index.html" target="_blank">U.S. Centers for Disease Control and Prevention</a>, <a href="https://www.michigan.gov/mdhhs/keep-mi-healthy/infectious-diseases/infectious-disease-outbreaks" target="_blank">Michigan Department of Health and Human Services</a><a href="https://www.alabamapublichealth.gov/infectiousdiseases/cases.html" target="_blank">, Alabama Public Health</a>
+    <br>
     Interactive: Katrina Ventura/<a href="https://qredirect.htvapps.net/?redirectUri=data-journalism" target="_blank" rel="nofollow noopener">Get the Facts Data Team</a>
   </div>
 
@@ -165,10 +166,11 @@
       const row = virusData.get(name);
       let html = `<div class="state-name">${name}</div>`;
       html += `<div class="rate">${row["Number of Sick People"]} sick people</div>`;
+      html += `<div class="note">Last updated: ${row["Last Updated"]}</div>`;
 
-      if (name === 'Michigan') {
-      html += `<div class="note">Based on locally reported data</div>`;
-    }
+      // if (name === 'Michigan' || name === 'Alabama') {
+      // html += `<div class="note">Based on locally reported data</div>`;
+    
     
 
       const container = document.getElementById("map-container");
@@ -181,8 +183,11 @@
    
     Promise.all([
       d3.json("https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json"),
-      d3.csv("data/clean_data_local.csv"),
-      d3.csv("data/cdc_notes.csv")
+      // d3.csv("data/clean_data_local.csv"),
+      // d3.csv("data/cdc_notes.csv")
+
+      d3.csv("https://raw.githubusercontent.com/kv-hearst/cyclospora-outbreak/main/data/clean_data_local.csv"),
+      d3.csv("https://raw.githubusercontent.com/kv-hearst/cyclospora-outbreak/main/data/cdc_notes.csv")
     ]).then(([us, data, cdcNote]) => {
     
       virusData = new Map();
@@ -193,10 +198,10 @@
       const note = cdcNote[0];
 
       document.getElementById("stat-deaths").textContent = note["deaths"];
-      document.getElementById("stat-total").textContent = note["total_cases"];
       document.getElementById("stat-hospitalization").textContent = note["hospitalizations"];
       document.getElementById("last-updated").textContent = note["last_updated"];
 
+      document.getElementById("stat-total").textContent = data.reduce((sum, d) => sum + (+d["max"] || 0), 0).toLocaleString();
 
 
       g.append("g")
