@@ -67,7 +67,8 @@
   <div id="summary-bar">
     <div class="summary-card">
       <div class="s-label">Hospitalizations</div>
-      <div class="s-value" id="stat-hospitalization"></div>
+      <div class="s-value">308</div>
+      <!-- <div class="s-value" id="stat-hospitalization"></div> -->
     </div>
     <div class="summary-card">
       <div class="s-label">Total Estimated Cases</div>
@@ -75,7 +76,8 @@
     </div>
     <div class="summary-card">
       <div class="s-label">Deaths</div>
-      <div class="s-value" id="stat-deaths">-</div>
+      <!-- <div class="s-value" id="stat-deaths">-</div> -->
+      <div class="s-value">0</div>
     </div>
   </div>
 
@@ -90,7 +92,7 @@
 
 
   <div class="footer">
-    Note: CDC data as of <span id="last-updated"></span>. Michigan and Alabama data are based on local state health department reports. Total estimated cases are a combination of local and nationally reported cases.
+    Note: CDC data from May 1 to July 20, 2026. Michigan and Alabama data are based on local state health department reports. Total estimated cases are a combination of local and nationally reported cases.
     <br>
     Source: <a href="https://www.cdc.gov/cyclosporiasis/php/surveillance/index.html" target="_blank">U.S. Centers for Disease Control and Prevention</a>, <a href="https://www.michigan.gov/mdhhs/keep-mi-healthy/infectious-diseases/infectious-disease-outbreaks" target="_blank">Michigan Department of Health and Human Services</a><a href="https://www.alabamapublichealth.gov/infectiousdiseases/cases.html" target="_blank">, Alabama Public Health</a>
     <br>
@@ -214,9 +216,9 @@
       const states = topojson.feature(us, us.objects.states).features;
       const note = cdcNote[0];
 
-      document.getElementById("stat-deaths").textContent = note["deaths"];
-      document.getElementById("stat-hospitalization").textContent = note["hospitalizations"];
-      document.getElementById("last-updated").textContent = note["last_updated"];
+      // document.getElementById("stat-deaths").textContent = note["deaths"];
+      // document.getElementById("stat-hospitalization").textContent = note["hospitalizations"];
+      // document.getElementById("last-updated").textContent = note["last_updated"];
 
       document.getElementById("stat-total").textContent = data.reduce((sum, d) => sum + (+d["max"] || 0), 0).toLocaleString();
 
