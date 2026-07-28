@@ -1,42 +1,46 @@
 ﻿Location,Number of Sick People
-Alabama,1 to 10
-Alaska,1 to 10
-Arizona,1 to 10
-Arkansas,11 to 30
-California,1 to 10
-Colorado,11 to 30
-Connecticut,11 to 30
-Florida,31 to 80
-Georgia,31 to 80
-Idaho,1 to 10
-Illinois,81 to 160
-Indiana,161 to 300
-Iowa,11 to 30
-Kansas,31 to 80
-Kentucky,81 to 160
-Louisiana,31 to 80
-Maryland,1 to 10
-Massachusetts,11 to 30
-Michigan,901 to 2100
-Minnesota,11 to 30
-Mississippi,1 to 10
-Missouri,31 to 80
-Nebraska,31 to 80
-Nevada,1 to 10
-New Hampshire,1 to 10
-New Jersey,31 to 80
-New York,161 to 300
-North Carolina,161 to 300
-North Dakota,1 to 10
-Ohio,301 to 500
-Oklahoma,31 to 80
-Pennsylvania,31 to 80
-Rhode Island,1 to 10
-Tennessee,31 to 80
-Texas,81 to 160
-Utah,1 to 10
-Virginia,31 to 80
-Washington,1 to 10
-West Virginia,11 to 30
-Wisconsin,11 to 30
-Wyoming,1 to 10
+Alabama,1 to 49
+Alaska,1 to 49
+Arizona,1 to 49
+Arkansas,1 to 49
+California,1 to 49
+Colorado,1 to 49
+Connecticut,1 to 49
+Delaware,1 to 49
+Florida,50 to 199
+Georgia,50 to 199
+Idaho,1 to 49
+Illinois,200 to 499
+Indiana,200 to 499
+Iowa,1 to 49
+Kansas,50 to 199
+Kentucky,50 to 199
+Louisiana,50 to 199
+Maryland,1 to 49
+Massachusetts,1 to 49
+Michigan,1000 to 4000
+Minnesota,1 to 49
+Mississippi,1 to 49
+Missouri,50 to 199
+Nebraska,50 to 199
+Nevada,1 to 49
+New Hampshire,1 to 49
+New Jersey,50 to 199
+New York,200 to 499
+North Carolina,200 to 499
+North Dakota,1 to 49
+Ohio,500 to 999
+Oklahoma,50 to 199
+Oregon,1 to 49
+Pennsylvania,50 to 199
+Rhode Island,1 to 49
+South Dakota,1 to 49
+Tennessee,50 to 199
+Texas,50 to 199
+Utah,1 to 49
+Vermont,1 to 49
+Virginia,50 to 199
+Washington,1 to 49
+West Virginia,1 to 49
+Wisconsin,1 to 49
+Wyoming,1 to 49
