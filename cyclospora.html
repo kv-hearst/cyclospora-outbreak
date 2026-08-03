@@ -76,8 +76,7 @@
     </div>
     <div class="summary-card">
       <div class="s-label">Deaths</div>
-      <!-- <div class="s-value" id="stat-deaths">-</div> -->
-      <div class="s-value">0</div>
+      <div class="s-value" id="stat-deaths">-</div>
     </div>
   </div>
 
@@ -207,6 +206,7 @@
 
       d3.csv("https://raw.githubusercontent.com/kv-hearst/cyclospora-outbreak/main/data/clean_data_local.csv"),
       d3.csv("https://raw.githubusercontent.com/kv-hearst/cyclospora-outbreak/main/data/cdc_notes.csv")
+      
     ]).then(([us, data, cdcNote]) => {
     
       virusData = new Map();
@@ -216,7 +216,7 @@
       const states = topojson.feature(us, us.objects.states).features;
       const note = cdcNote[0];
 
-      // document.getElementById("stat-deaths").textContent = note["deaths"];
+      document.getElementById("stat-deaths").textContent = data.reduce((sum, d) => sum + (+d["deaths"] || 0), 0).toLocaleString();
       // document.getElementById("stat-hospitalization").textContent = note["hospitalizations"];
       // document.getElementById("last-updated").textContent = note["last_updated"];
 
