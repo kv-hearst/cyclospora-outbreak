@@ -76,7 +76,8 @@
     </div>
     <div class="summary-card">
       <div class="s-label">Deaths</div>
-      <div class="s-value" id="stat-deaths">-</div>
+      <div class="s-value">2</div>
+      <!-- <div class="s-value" id="stat-deaths">-</div> -->
     </div>
   </div>
 
@@ -91,7 +92,7 @@
 
 
   <div class="footer">
-    Note: CDC data from May 1 to July 20, 2026. Michigan and Alabama data are based on local state health department reports. Total estimated cases are a combination of local and nationally reported cases.
+    Note: CDC data from May 1 to July 27, 2026. Michigan and Alabama data are based on local state health department reports. Total estimated cases are a combination of local and nationally reported cases.
     <br>
     Source: <a href="https://www.cdc.gov/cyclosporiasis/php/surveillance/index.html" target="_blank">U.S. Centers for Disease Control and Prevention</a>, <a href="https://www.michigan.gov/mdhhs/keep-mi-healthy/infectious-diseases/infectious-disease-outbreaks" target="_blank">Michigan Department of Health and Human Services</a><a href="https://www.alabamapublichealth.gov/infectiousdiseases/cases.html" target="_blank">, Alabama Public Health</a>
     <br>
@@ -216,7 +217,7 @@
       const states = topojson.feature(us, us.objects.states).features;
       const note = cdcNote[0];
 
-      document.getElementById("stat-deaths").textContent = data.reduce((sum, d) => sum + (+d["deaths"] || 0), 0).toLocaleString();
+      // document.getElementById("stat-deaths").textContent = data.reduce((sum, d) => sum + (+d["deaths"] || 0), 0).toLocaleString();
       // document.getElementById("stat-hospitalization").textContent = note["hospitalizations"];
       // document.getElementById("last-updated").textContent = note["last_updated"];
 
