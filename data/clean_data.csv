@@ -1,46 +1,46 @@
 Location,Number of Sick People,min,max,average
 Michigan,1000 to 4000,1000,4000,2500.0
 Ohio,500 to 999,500,999,749.5
-New York,200 to 499,200,499,349.5
 North Carolina,200 to 499,200,499,349.5
-Illinois,200 to 499,200,499,349.5
 Indiana,200 to 499,200,499,349.5
-Tennessee,50 to 199,50,199,124.5
-New Jersey,50 to 199,50,199,124.5
-Nebraska,50 to 199,50,199,124.5
-Oklahoma,50 to 199,50,199,124.5
-Pennsylvania,50 to 199,50,199,124.5
+Illinois,200 to 499,200,499,349.5
+New York,200 to 499,200,499,349.5
 Louisiana,50 to 199,50,199,124.5
-Kentucky,50 to 199,50,199,124.5
 Missouri,50 to 199,50,199,124.5
-Texas,50 to 199,50,199,124.5
-Georgia,50 to 199,50,199,124.5
-Florida,50 to 199,50,199,124.5
-Virginia,50 to 199,50,199,124.5
+Nebraska,50 to 199,50,199,124.5
 Kansas,50 to 199,50,199,124.5
+Florida,50 to 199,50,199,124.5
+Georgia,50 to 199,50,199,124.5
+New Jersey,50 to 199,50,199,124.5
+Pennsylvania,50 to 199,50,199,124.5
+Tennessee,50 to 199,50,199,124.5
+Texas,50 to 199,50,199,124.5
+Virginia,50 to 199,50,199,124.5
+Oklahoma,50 to 199,50,199,124.5
+Kentucky,50 to 199,50,199,124.5
+Idaho,1 to 49,1,49,25.0
+California,1 to 49,1,49,25.0
+Alabama,1 to 49,1,49,25.0
+Colorado,1 to 49,1,49,25.0
+Connecticut,1 to 49,1,49,25.0
+Delaware,1 to 49,1,49,25.0
+Alaska,1 to 49,1,49,25.0
+Arizona,1 to 49,1,49,25.0
+Arkansas,1 to 49,1,49,25.0
+Massachusetts,1 to 49,1,49,25.0
+New Hampshire,1 to 49,1,49,25.0
+Nevada,1 to 49,1,49,25.0
+Mississippi,1 to 49,1,49,25.0
+Minnesota,1 to 49,1,49,25.0
+Iowa,1 to 49,1,49,25.0
+Maryland,1 to 49,1,49,25.0
+Oregon,1 to 49,1,49,25.0
+North Dakota,1 to 49,1,49,25.0
 South Dakota,1 to 49,1,49,25.0
 Rhode Island,1 to 49,1,49,25.0
 Utah,1 to 49,1,49,25.0
 Vermont,1 to 49,1,49,25.0
-Oregon,1 to 49,1,49,25.0
 Washington,1 to 49,1,49,25.0
 West Virginia,1 to 49,1,49,25.0
-North Dakota,1 to 49,1,49,25.0
 Wisconsin,1 to 49,1,49,25.0
-Alabama,1 to 49,1,49,25.0
-New Hampshire,1 to 49,1,49,25.0
-Nevada,1 to 49,1,49,25.0
-Alaska,1 to 49,1,49,25.0
-Mississippi,1 to 49,1,49,25.0
-Minnesota,1 to 49,1,49,25.0
-Massachusetts,1 to 49,1,49,25.0
-Maryland,1 to 49,1,49,25.0
-Iowa,1 to 49,1,49,25.0
-Idaho,1 to 49,1,49,25.0
-Delaware,1 to 49,1,49,25.0
-Connecticut,1 to 49,1,49,25.0
-Colorado,1 to 49,1,49,25.0
-California,1 to 49,1,49,25.0
-Arkansas,1 to 49,1,49,25.0
-Arizona,1 to 49,1,49,25.0
 Wyoming,1 to 49,1,49,25.0
