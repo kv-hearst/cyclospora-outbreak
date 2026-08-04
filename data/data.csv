@@ -2,23 +2,23 @@
 Alabama,1 to 49
 Alaska,1 to 49
 Arizona,1 to 49
-Arkansas,1 to 49
+Arkansas,50 to 199
 California,1 to 49
 Colorado,1 to 49
 Connecticut,1 to 49
-Delaware,1 to 49
 Florida,50 to 199
 Georgia,50 to 199
 Idaho,1 to 49
 Illinois,200 to 499
-Indiana,200 to 499
-Iowa,1 to 49
-Kansas,50 to 199
-Kentucky,50 to 199
+Indiana,500 to 999
+Iowa,50 to 199
+Kansas,200 to 499
+Kentucky,200 to 499
 Louisiana,50 to 199
+Maine,1 to 49
 Maryland,1 to 49
-Massachusetts,1 to 49
-Michigan,1000 to 4000
+Massachusetts,50 to 199
+Michigan,>4000
 Minnesota,1 to 49
 Mississippi,1 to 49
 Missouri,50 to 199
@@ -27,13 +27,14 @@ Nevada,1 to 49
 New Hampshire,1 to 49
 New Jersey,50 to 199
 New York,200 to 499
-North Carolina,200 to 499
+North Carolina,500 to 999
 North Dakota,1 to 49
 Ohio,500 to 999
-Oklahoma,50 to 199
+Oklahoma,200 to 499
 Oregon,1 to 49
 Pennsylvania,50 to 199
 Rhode Island,1 to 49
+South Carolina,1 to 49
 South Dakota,1 to 49
 Tennessee,50 to 199
 Texas,50 to 199
@@ -41,6 +42,6 @@ Utah,1 to 49
 Vermont,1 to 49
 Virginia,50 to 199
 Washington,1 to 49
-West Virginia,1 to 49
-Wisconsin,1 to 49
+West Virginia,50 to 199
+Wisconsin,50 to 199
 Wyoming,1 to 49
