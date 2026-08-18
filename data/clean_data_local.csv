@@ -1,25 +1,26 @@
 Location,Number of Sick People,min,max,average,Last Updated,deaths
 North Carolina,500 to 999,500,999,749.5,"May 1 - July 27, 2026",0
 Illinois,500 to 999,500,999,749.5,"May 1 - July 27, 2026",0
-Oklahoma,200 to 499,200,499,349.5,"May 1 - July 27, 2026",0
+Nebraska,200 to 499,200,499,349.5,"May 1 - July 27, 2026",0
 New York,200 to 499,200,499,349.5,"May 1 - July 27, 2026",0
 Kentucky,200 to 499,200,499,349.5,"May 1 - July 27, 2026",0
 Kansas,200 to 499,200,499,349.5,"May 1 - July 27, 2026",0
 Texas,200 to 499,200,499,349.5,"May 1 - July 27, 2026",0
+Oklahoma,200 to 499,200,499,349.5,"May 1 - July 27, 2026",0
 Pennsylvania,200 to 499,200,499,349.5,"May 1 - July 27, 2026",0
-Nebraska,50 to 199,50,199,124.5,"May 1 - July 27, 2026",0
 Arkansas,50 to 199,50,199,124.5,"May 1 - July 27, 2026",0
 Iowa,50 to 199,50,199,124.5,"May 1 - July 27, 2026",0
 Georgia,50 to 199,50,199,124.5,"May 1 - July 27, 2026",0
 Florida,50 to 199,50,199,124.5,"May 1 - July 27, 2026",0
 Virginia,50 to 199,50,199,124.5,"May 1 - July 27, 2026",0
-New Jersey,50 to 199,50,199,124.5,"May 1 - July 27, 2026",0
 Wisconsin,50 to 199,50,199,124.5,"May 1 - July 27, 2026",0
+Missouri,50 to 199,50,199,124.5,"May 1 - July 27, 2026",0
 West Virginia,50 to 199,50,199,124.5,"May 1 - July 27, 2026",0
 Tennessee,50 to 199,50,199,124.5,"May 1 - July 27, 2026",0
 Massachusetts,50 to 199,50,199,124.5,"May 1 - July 27, 2026",0
-Missouri,50 to 199,50,199,124.5,"May 1 - July 27, 2026",0
+Minnesota,50 to 199,50,199,124.5,"May 1 - July 27, 2026",0
 New Hampshire,50 to 199,50,199,124.5,"May 1 - July 27, 2026",0
+New Jersey,50 to 199,50,199,124.5,"May 1 - July 27, 2026",0
 Alaska,1 to 49,1,49,25.0,"May 1 - July 27, 2026",0
 Arizona,1 to 49,1,49,25.0,"May 1 - July 27, 2026",0
 California,1 to 49,1,49,25.0,"May 1 - July 27, 2026",0
@@ -27,11 +28,10 @@ Colorado,1 to 49,1,49,25.0,"May 1 - July 27, 2026",0
 Connecticut,1 to 49,1,49,25.0,"May 1 - July 27, 2026",0
 District of Columbia,1 to 49,1,49,25.0,"May 1 - July 27, 2026",0
 Idaho,1 to 49,1,49,25.0,"May 1 - July 27, 2026",0
-Nevada,1 to 49,1,49,25.0,"May 1 - July 27, 2026",0
 North Dakota,1 to 49,1,49,25.0,"May 1 - July 27, 2026",0
 Montana,1 to 49,1,49,25.0,"May 1 - July 27, 2026",0
 Maine,1 to 49,1,49,25.0,"May 1 - July 27, 2026",0
-Minnesota,1 to 49,1,49,25.0,"May 1 - July 27, 2026",0
+Nevada,1 to 49,1,49,25.0,"May 1 - July 27, 2026",0
 Oregon,1 to 49,1,49,25.0,"May 1 - July 27, 2026",0
 South Dakota,1 to 49,1,49,25.0,"May 1 - July 27, 2026",0
 South Carolina,1 to 49,1,49,25.0,"May 1 - July 27, 2026",0
