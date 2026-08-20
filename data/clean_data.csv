@@ -1,49 +1,49 @@
 Location,Number of Sick People,min,max,average
 Ohio,1000 to 3999,1000,3999,2499.5
-Illinois,500 to 999,500,999,749.5
-North Carolina,500 to 999,500,999,749.5
 Indiana,500 to 999,500,999,749.5
+North Carolina,500 to 999,500,999,749.5
+Illinois,500 to 999,500,999,749.5
 Nebraska,200 to 499,200,499,349.5
 New York,200 to 499,200,499,349.5
-Texas,200 to 499,200,499,349.5
-Pennsylvania,200 to 499,200,499,349.5
 Kentucky,200 to 499,200,499,349.5
 Kansas,200 to 499,200,499,349.5
+Texas,200 to 499,200,499,349.5
 Oklahoma,200 to 499,200,499,349.5
-Missouri,50 to 199,50,199,124.5
-Minnesota,50 to 199,50,199,124.5
-Wisconsin,50 to 199,50,199,124.5
-Arkansas,50 to 199,50,199,124.5
-West Virginia,50 to 199,50,199,124.5
-New Jersey,50 to 199,50,199,124.5
-New Hampshire,50 to 199,50,199,124.5
-Georgia,50 to 199,50,199,124.5
-Tennessee,50 to 199,50,199,124.5
+Pennsylvania,200 to 499,200,499,349.5
 Louisiana,50 to 199,50,199,124.5
-Massachusetts,50 to 199,50,199,124.5
-Maryland,50 to 199,50,199,124.5
-Virginia,50 to 199,50,199,124.5
-Florida,50 to 199,50,199,124.5
+Arkansas,50 to 199,50,199,124.5
 Iowa,50 to 199,50,199,124.5
+Georgia,50 to 199,50,199,124.5
+Florida,50 to 199,50,199,124.5
+Virginia,50 to 199,50,199,124.5
+Wisconsin,50 to 199,50,199,124.5
+Missouri,50 to 199,50,199,124.5
+West Virginia,50 to 199,50,199,124.5
+Tennessee,50 to 199,50,199,124.5
+Maryland,50 to 199,50,199,124.5
+Massachusetts,50 to 199,50,199,124.5
+Minnesota,50 to 199,50,199,124.5
+New Hampshire,50 to 199,50,199,124.5
+New Jersey,50 to 199,50,199,124.5
+Alaska,1 to 49,1,49,25.0
+Arizona,1 to 49,1,49,25.0
+California,1 to 49,1,49,25.0
+Colorado,1 to 49,1,49,25.0
+Connecticut,1 to 49,1,49,25.0
+District of Columbia,1 to 49,1,49,25.0
+Idaho,1 to 49,1,49,25.0
+Alabama,1 to 49,1,49,25.0
+North Dakota,1 to 49,1,49,25.0
+Montana,1 to 49,1,49,25.0
+Maine,1 to 49,1,49,25.0
+Nevada,1 to 49,1,49,25.0
+Mississippi,1 to 49,1,49,25.0
+Oregon,1 to 49,1,49,25.0
 South Dakota,1 to 49,1,49,25.0
 South Carolina,1 to 49,1,49,25.0
 Rhode Island,1 to 49,1,49,25.0
-Washington,1 to 49,1,49,25.0
-Vermont,1 to 49,1,49,25.0
 Puerto Rico,1 to 49,1,49,25.0
+Vermont,1 to 49,1,49,25.0
 Utah,1 to 49,1,49,25.0
-Alabama,1 to 49,1,49,25.0
-Oregon,1 to 49,1,49,25.0
-North Dakota,1 to 49,1,49,25.0
-Nevada,1 to 49,1,49,25.0
-Alaska,1 to 49,1,49,25.0
-Montana,1 to 49,1,49,25.0
-Mississippi,1 to 49,1,49,25.0
-Maine,1 to 49,1,49,25.0
-Idaho,1 to 49,1,49,25.0
-District of Columbia,1 to 49,1,49,25.0
-Connecticut,1 to 49,1,49,25.0
-Colorado,1 to 49,1,49,25.0
-California,1 to 49,1,49,25.0
-Arizona,1 to 49,1,49,25.0
+Washington,1 to 49,1,49,25.0
 Wyoming,1 to 49,1,49,25.0
